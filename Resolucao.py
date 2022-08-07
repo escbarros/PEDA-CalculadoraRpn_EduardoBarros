@@ -1,3 +1,5 @@
+#Eduardo Scaburi Costa Barros
+
 import re 
 
 def resolvedor(teste):
@@ -33,3 +35,7 @@ resolvedor(teste5)
 
 teste6 = "((3 4 +) (4 (1 1 +) /) *)" #Resposta 14
 resolvedor(teste6)
+
+print("Digite o próxima equação")
+teste7 = input()
+resolvedor(teste7)
